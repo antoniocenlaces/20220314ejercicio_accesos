@@ -1,5 +1,6 @@
 <?php
 $nombre= $_GET['user'] ?? '';
+$time = $_GET['time'] ?? $_GET['espera'] ?? '';
 ?>
 <!doctype html>
 <html lang="es">
@@ -11,6 +12,7 @@ $nombre= $_GET['user'] ?? '';
     <title>Bloqueado</title>
 </head>
 <body>
-<h1>Usuario <?=$nombre?> está bloqueado para acceso. Intenta más tarde.</h1>
+<h1>Usuario <?=$nombre?> está bloqueado para acceso.</h1>
+<h2>Aún te faltan <?=$time?> segundos para vover a intentarlo.</h2>
 </body>
 </html>

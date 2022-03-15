@@ -1,34 +1,25 @@
 body {
-    width: 60vh;
+    width: 90vh;
     margin: 0 auto;
 }
 label {
     display: inline;
 }
 .form-block {
+    display: block;
     margin: .5rem 0;
-
 }
 .form-label {
+    display: inline;
     font-weight: bold;
 }
 .form-control {
-    width: 80%;
+    display: inline;
+    width: 60%;
 }
 .form {
-    width: 50%;
+    width: 80%;
 }
-.checkbox-label {
-    display: inline;
-}
-/*input:disabled {*/
-/*    background-color: black;*/
-/*    color: white;*/
-/*}*/
-/*input:required {*/
-/*    background-color: lightskyblue;*/
-/*    color: black;*/
-/*}*/
 .envia {
     background-color: green;
     border-radius: 0.5rem;
