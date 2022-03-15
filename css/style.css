@@ -1,0 +1,55 @@
+body {
+    width: 60vh;
+    margin: 0 auto;
+}
+label {
+    display: inline;
+}
+.form-block {
+    margin: .5rem 0;
+
+}
+.form-label {
+    font-weight: bold;
+}
+.form-control {
+    width: 80%;
+}
+.form {
+    width: 50%;
+}
+.checkbox-label {
+    display: inline;
+}
+/*input:disabled {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+/*input:required {*/
+/*    background-color: lightskyblue;*/
+/*    color: black;*/
+/*}*/
+.envia {
+    background-color: green;
+    border-radius: 0.5rem;
+    border: 2px double #1055d8;
+    color: #fff;
+    font-weight: bold;
+    height: 2rem;
+    min-width: 6rem;
+}
+.envia:hover {
+    border: 2px double #9bef9b;
+}
+.borra {
+    background-color: red;
+    border-radius: 0.5rem;
+    border: 2px double #1055d8;
+    color: #fff;
+    font-weight: bold;
+    height: 2rem;
+    min-width: 6rem;
+}
+.borra:hover {
+    border: 2px double #9bef9b;
+}
