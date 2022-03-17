@@ -97,7 +97,7 @@ if (isset($_POST['f1'])) { // El botón de Acceder ha sido pulsado
             <input class="form-control" type="text" name="nombre" id="nombre">
         </div>
         <div class="form-block">
-            <label class="form-label" for="passwd" >Passwd</label>
+            <label class="form-label" for="passwd" >Password</label>
             <input class="form-control" type="text" name="passwd" id="passwd">
         </div>
     </fieldset>

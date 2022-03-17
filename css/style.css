@@ -1,13 +1,12 @@
 body {
-    width: 90vh;
+    width: 80vh;
     margin: 0 auto;
 }
 label {
     display: inline;
 }
 .form-block {
-    display: block;
-    margin: .5rem 0;
+       margin: .5rem 0;
 }
 .form-label {
     display: inline;
